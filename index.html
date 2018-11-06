@@ -19,12 +19,79 @@
 		  	<h3 style="text-align: center; font-family: Georgia">Workshop on </h3>
 		  	<h1 style="text-align: center; font-family: Georgia">Generalizable Reasoning in NLP </h1>
 		  	<div class="alert alert-light" role="alert">
-			  <b>TLDR; <b>
+			  <b>TLDR;  This workshop encourages understanding of principled model design for language understanding problems (e.g. QA, NLI, etc) and their generalization.  <b>
 			</div>
 		</div>
 		<div class="alert alert-light" role="alert" style="color: black; font-family: Georgia">
 		  <h4>Overview</h4>
-		  <h6>TODO</h6> 
+		  <p style="font-weight: normal; text-align: justify"> 
+			The fundamental language understanding problems (e.g. Question Answering, Reading Comprehension, Textual Entailment, Natural Language Inference, etc) have received significant attention in NLP, especially recently, thanks to the advances in NLP and Machine Learning like the emergence of Deep Learning. As a result, there have been a plethora of models proposed to address these tasks and they seem to be making incredible advances. For example, earlier this year, multiple teams reported better-than-human performance on reading comprehension challenges (Delvin et al, 2018). Unfortunately, despite their super-human performance, research has shown that these methods possess a very shallow understanding of text, which is reflected in their poor generalization capabilities (Levy et al, 2015; Jia and Liang, 2017; Divyansh and Lipton, 2018). A possible reason for this behavior is that these systems have been trying to address language understanding as yet-another-ML problem, without focussing on the diverse underlying challenges (Sugawara et al, 2018), which might involve a deep understanding of more-involved and diverse reasoning processes. In a parallel thread, the direct efforts for creating general reasoning formalisms, while successful in certain domains and datasets, is not widely received due to their restrictions across problems or domains. 
+			</p> 
+			<p style="font-weight: normal; text-align: justify"> 
+			In this workshop we would like to bring the focus on elements that could lead to the emergence of intelligent behavior with language, by focusing on two key notions: 
+			</p>
+
+			<ul>
+	            <li><p style="font-weight: normal; text-align: justify"><span style="font-style: italic;">Generalization of Models:</span> which is the ability to discover general concepts from specific instances by abstracting common properties (Zhang et al, 2016; Mitchell et al, 2018) </p>
+	            <li><p style="font-weight: normal; text-align: justify"><span style="font-style: italic;">Reasoning with Models:</span> which is the capacity to make decisions, by combining facts and beliefs. (Berant et al, 2013; Khashabi et al, 2018)</p>
+	     	</ul>
+
+	     	<p style="font-weight: normal; text-align: justify"> We are soliciting work along the following challenge directions: </p>
+	     	<ul>
+	            <li> Evaluation and datasets:  
+	            	<ul>
+	            		<li style="font-weight: normal; text-align: justify"> How can we effectively measure linguistic generalization of high-level NLP problems? What evaluation design could encourage stronger generalization? 
+	            		<li style="font-weight: normal; text-align: justify"> How can we measure the extent to which do the existing models/system perform reasoning? 
+	            		<li style="font-weight: normal; text-align: justify"> How can leaderboards help better generalization over time? 
+	            		<li style="font-weight: normal; text-align: justify"> Any new tasks/dataset (that test novel aspects of reasoning or tasks). 
+					</ul>	
+	        </ul>
+
+
+			<ul>
+	            <li> Reasoning Paradigms and Formalisms: 
+	            	<ul>
+	            		<li style="font-weight: normal; text-align: justify"> What kind of reasonings do current models do? (and what kinds they don’t?)
+	            		<li style="font-weight: normal; text-align: justify"> Big data vs small data? What are the separating lines between generalization and memorization? Do over-parameterized systems generalize  or memorize?
+	            		<li style="font-weight: normal; text-align: justify"> How can we distinguish interpolation and extrapolation for NLP problems?  
+					</ul>	
+	        </ul>
+
+	        <ul>
+	            <li> Empirical Intuitions: 
+	            	<ul>
+						<li style="font-weight: normal; text-align: justify"> What do adversarial perturbations tell us about the generalization of systems? 
+						<li style="font-weight: normal; text-align: justify"> State-of-the-art models, that are able to generalize across examples in a large dataset, are still brittle to minor changes. What does this mean for the generalization capability of such systems?
+					</ul>	
+	        </ul>
+
+	        <ul>
+	            <li> Models and Systems: 
+	            	<ul>
+	            		<li style="font-weight: normal; text-align: justify"> Any models/systems with new reasoning capabilities. 
+					</ul>	
+	        </ul>
+
+	        <p style="font-weight: normal; text-align: justify"> 
+			We accept both archival submissions (4 pages) and non-archival submissions (8 pages). Archival means the work can be included in our proceedings. The “archival” submissions should not previously been published in any peer-reviewed venues and can’t submitted to one in the future. If your work was previously published or is under submission elsewhere, please choose non-archival so you can still present a poster but we won't publish your paper in the ACL anthology.
+			</p>
+
+			<p style="font-weight: normal; text-align: justify"> 
+			The NLP community, today, is a point where the only way to make the next ‘giant leap’ is by really understanding language in a ways that humans do. This has the potential of widening the user-base of AI to common people and making seamless human-machine interaction possible. However, recent approaches are clearly falling short of the requirement in spite of their astonishing performance figures. Clearly, there is a need for a careful and objective reflection into current techniques, and to collaborate with and learn from experts from the general AI domain and beyond. We hope that this workshop could get us closer to this goal. </p>
+
+			Relevant Citations 
+			<ul style="font-weight: normal; text-align: justify; font-size: 13px;">
+	            <li>  Sugawara, Saku, Yusuke Kido, Hikaru Yokono, and Akiko Aizawa. Evaluation metrics for machine reading comprehension: Prerequisite skills and readability. ACL 2017. 
+	           	<li> Kaushik, Divyansh, and Zachary C. Lipton. How Much Reading Does Reading Comprehension Require? A Critical Investigation of Popular Benchmarks. EMNLP 2018.
+	           	<li>Devlin, Jacob, et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv preprint arXiv:1810.04805 2018.
+	           	<li>Jia, Robin and Percy Liang. “Adversarial Examples for Evaluating Reading Comprehension Systems.” EMNLP 2017.
+	           	<li>Khashabi, D., Khot, T., Sabharwal, A., & Roth, D. Question Answering as Global Reasoning over Semantic Abstractions.AAAI, 2018. 
+	           	<li>Levy et al. Do Supervised Distributional Methods Really Learn Lexical Inference Relations? NAACL 2015 
+	           	<li>Zhang, C., Bengio, S., Hardt, M., Recht, B., & Vinyals, O. Understanding deep learning requires rethinking generalization. ICLR 2016.
+	           	<li>Mitchell, J., Stenetorp, P., Minervini, P., & Riedel, S. Extrapolation in NLP. In Proceedings of the Workshop on Generalization in the Age of Deep Learning 2018. 
+				<li>Berant, Jonathan, Andrew Chou, Roy Frostig, and Percy Liang. Semantic parsing on freebase from question-answer pairs. EMNLP 2013.
+	        </ul>
+
 		</div>
 		<div class="alert alert-danger" role="alert">
 			<h4 style="font-family: Georgia">Important Dates</h4>	
